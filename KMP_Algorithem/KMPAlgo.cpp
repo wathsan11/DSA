@@ -4,6 +4,7 @@
 
 void constructLps(std::string& pat, std::vector<int> &lps)
 {
+    // len stores the length of longest prefix which is also a suffix for the previous index
     int len = 0;
     lps[0] = 0;
     int i = 1;
